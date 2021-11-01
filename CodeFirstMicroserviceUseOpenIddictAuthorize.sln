@@ -7,9 +7,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservice", "Microservic
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{CA8D2672-89B4-4234-90C9-68AAB23FDE36}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Identity", "Identity", "{C9740CC0-DB42-44D3-8153-42916BBC4755}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Member", "Member", "{370CC604-9BBA-4813-96E5-34D49D7670E5}"
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C9740CC0-DB42-44D3-8153-42916BBC4755} = {DE8E3405-9D6D-4A2A-86FF-7FF7113E25DC}
+		{370CC604-9BBA-4813-96E5-34D49D7670E5} = {DE8E3405-9D6D-4A2A-86FF-7FF7113E25DC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5E7CE070-32C0-415F-8EBC-999AE33A31BB}
