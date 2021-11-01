@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Repository\Members\Commands\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Common.DAL.Repository\Common.DAL.Repository.csproj" />
+    <ProjectReference Include="..\Member.Models\Member.Models.csproj" />
+  </ItemGroup>
+
+</Project>
