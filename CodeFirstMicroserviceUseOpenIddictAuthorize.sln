@@ -7,9 +7,24 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservice", "Microservic
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{CA8D2672-89B4-4234-90C9-68AAB23FDE36}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirstUseOpenIddictAuthorize.Api", "CodeFirstUseOpenIddictAuthorize.Api\CodeFirstUseOpenIddictAuthorize.Api.csproj", "{A8B85276-117A-4A27-96F9-BEF9F8018537}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8B85276-117A-4A27-96F9-BEF9F8018537}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8B85276-117A-4A27-96F9-BEF9F8018537}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8B85276-117A-4A27-96F9-BEF9F8018537}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8B85276-117A-4A27-96F9-BEF9F8018537}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A8B85276-117A-4A27-96F9-BEF9F8018537} = {DE8E3405-9D6D-4A2A-86FF-7FF7113E25DC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5E7CE070-32C0-415F-8EBC-999AE33A31BB}
