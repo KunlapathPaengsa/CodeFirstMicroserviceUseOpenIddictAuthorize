@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace CodeFirstUseOpenIddictAuthorize.Api.Controllers
+namespace Member.Api.Controllers
 {
     [ApiController]
     [Route("[controller]")]

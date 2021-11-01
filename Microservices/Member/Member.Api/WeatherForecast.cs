@@ -1,6 +1,6 @@
 using System;
 
-namespace CodeFirstUseOpenIddictAuthorize.Api
+namespace Member.Api
 {
     public class WeatherForecast
     {

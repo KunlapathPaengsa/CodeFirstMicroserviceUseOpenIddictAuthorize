@@ -11,7 +11,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace CodeFirstUseOpenIddictAuthorize.Api
+namespace Identity.Api
 {
     public class Startup
     {
@@ -29,7 +29,7 @@ namespace CodeFirstUseOpenIddictAuthorize.Api
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "CodeFirstUseOpenIddictAuthorize.Api", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Identity.Api", Version = "v1" });
             });
         }
 
@@ -40,7 +40,7 @@ namespace CodeFirstUseOpenIddictAuthorize.Api
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "CodeFirstUseOpenIddictAuthorize.Api v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Identity.Api v1"));
             }
 
             app.UseRouting();

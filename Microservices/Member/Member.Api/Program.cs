@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace CodeFirstUseOpenIddictAuthorize.Api
+namespace Member.Api
 {
     public class Program
     {
